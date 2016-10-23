@@ -1,0 +1,218 @@
+/* Carousel content */
+.carousel
+	height: 100vh
+	
+	.item
+		height: 100%
+
+.carousel-info
+	position: absolute
+	right: 20% 
+	left: 20%
+	bottom: 50%
+	z-index: 10
+	text-align: center
+
+.carousel-inner
+	position: relative
+	width: 100%
+	height: 100%
+	overflow: hidden
+
+// FIRST SLIDE 
+.first_slide
+	h1
+		color: $color_main
+		margin: 0 0 0 0 
+	h3
+		color: $color_main
+		margin: 13px 0 0 0
+	p
+		color: $color_main
+		margin: 12px 0 50px 0
+
+// SECOND SLIDE 
+.second_slide
+	background: url(/img/c1.jpg) no-repeat center center fixed
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-o-background-size: cover
+	background-size: cover
+	h1
+		color: $background
+		margin: 0 0 0 0
+	h3
+		color: $background
+		margin: 13px 0 0 0
+	p
+		color: $background
+		margin: 12px 0 50px 0
+// THIRD SLIDE 
+.third_slide
+	background: url(/img/c2.jpg) no-repeat center center fixed
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-o-background-size: cover
+	background-size: cover
+	h1
+		color: $background
+		margin: 0 0 0 0
+	h3
+		color: $background
+		margin: 13px 0 0 0
+	p
+		color: $background
+		margin: 12px 0 50px 0
+
+// FOURTH SLIDE 
+.fourth_slide
+	background: url(/img/c3.jpg) no-repeat center center fixed
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-o-background-size: cover
+	background-size: cover
+	h1
+		color: $color_main
+		margin: 0 0 0 0
+	h3
+		color: $color_main
+		margin: 13px 0 0 0
+	p
+		color: $color_main
+		margin: 12px 0 50px 0
+
+// FIFTH SLIDE 
+.fifth_slide
+	background: url(/img/c4.jpg) no-repeat center center fixed
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-o-background-size: cover
+	background-size: cover
+	h1
+		color: $background
+		margin: 0 0 0 0
+	h3
+		color: $background
+		margin: 13px 0 0 0
+	p
+		color: $background
+		margin: 12px 0 50px 0
+
+// SIX SLIDE 
+.six_slide
+	background: url(/img/c5.jpg) no-repeat center center fixed
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-o-background-size: cover
+	background-size: cover
+	h1
+		color: $color_main
+		margin: 0 0 0 0
+		white-space: nowrap
+	h3
+		color: $color_main
+		margin: 13px 0 0 0
+	p
+		color: $color_main
+		margin: 12px 0 50px 0
+
+/* /.Carousel content */
+
+/* Carousel paginators */
+.carousel-indicators
+	position: absolute
+	top: 50%
+	left: 50%
+	height: 20px
+	z-index: 10
+	padding-left: 0
+	margin-left: -30%
+	text-align: center
+	list-style: none
+	li
+		display: inline-block
+		width: 14px
+		height: 14px
+		margin: 0 16px 0 0
+		text-indent: -999px
+		cursor: pointer
+		background-color: rgba(0, 0, 0, 0.5)
+		border: none
+		-webkit-transition: all 0.6s ease-in-out
+		-o-transition: all 0.6s ease-in-out
+		transition: all 0.6s ease-in-out
+	li:last-child
+		margin-right: 0
+	.active
+		width: 14px
+		height: 14px
+		background: #262626
+		margin: 0 16px 0 0
+
+.carousel-indicators-light
+	li
+		background-color: rgba(255, 255, 255, 0.3)
+	.active
+		background: #ffffff
+.carousel-indicators-dark
+	li
+		background-color: rgba(0, 0, 0, 0.3)
+	.active
+		background: $color-main	
+/* /.Carousel paginators */
+
+/* Static part */
+.static_part
+	position: fixed
+	text-align: center
+	top: 50%
+	left: -33%
+	right: -33%
+
+	.col-md-4
+		padding: 0 0
+	svg
+		width: auto
+		height: 56px
+		fill: $color-main
+		-webkit-transition: all 0.6s ease-in-out
+		-o-transition: all 0.6s ease-in-out
+		transition: all 0.6s ease-in-out
+	h2
+		margin: 70px 0 30px 0
+		-webkit-transition: all 0.6s ease-in-out
+		-o-transition: all 0.6s ease-in-out
+		transition: all 0.6s ease-in-out		
+	p
+		margin: 10px 0 0 0
+		-webkit-transition: all 0.6s ease-in-out
+		-o-transition: all 0.6s ease-in-out
+		transition: all 0.6s ease-in-out	
+.footer
+	margin-top: 50px
+	margin-bottom: 10px
+	a
+		&:hover
+		text-decoration: underline
+		-webkit-transition: all 0.6s ease-in-out
+		-o-transition: all 0.6s ease-in-out
+		transition: all 0.6s ease-in-out
+.static_part-dark
+	h2
+		color: $color_main
+	p
+		color: $color_main
+	a
+		color: $color_main
+	svg
+		fill: $color-main
+.static_part-light
+	h2
+		color: #ffffff
+	p
+		color: #ffffff
+	a
+		color: #ffffff
+	svg
+		fill: #ffffff
+/* /.Static part */
